@@ -1,4 +1,6 @@
 # Write your code here!
-require './config/environment'
+require 'sinatra'
 
-run App
+require_relative 'app.rb'
+
+run Application
